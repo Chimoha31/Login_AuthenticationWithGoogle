@@ -16,6 +16,7 @@ export default Home
 function SignInButton() {
   const signInWithGoogle = () => {
     // firebaseを使ってGoogleにサインインする。
+    // signInWithPopupには2つ引数が必要
     signInWithPopup(auth, provider);
   };
 
